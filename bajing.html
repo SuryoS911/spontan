@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk Kaum Adam XI RPL 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Revalia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Lemon&family=Revalia&display=swap" rel="stylesheet">
+    <style>
+        html {
+            background-color: black;
+        }
+        .container {
+          margin-top: 15rem;
+        }
+        .manopola {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        .manopola button {
+          font-family: "DynaPuff", system-ui;
+          font-size: 1.3rem;
+          background-color: #ff00f7;
+          color: white;
+          width: 25rem;
+          height: 5rem;
+          border-radius: 2rem;
+          border: 2px solid #00fbff;
+          box-shadow: 0px 0px 20px  #ff00ea;
+          transition: ease-in-out 0.2s;
+        }
+        .manopola button:hover {
+          cursor: pointer;
+          background-color: #e600de;
+        }
+        .manopola button:active {
+          background-color: #8a0085;
+        }
+        .testoILY {
+          font-family: "Lemon", serif;
+          color: white;
+          display: flex;
+          flex-direction: row;
+        }
+        .testoI, .testoL, .testoY {
+          display: flex;
+          flex-direction: row;
+          gap: 10px;
+          font-size: 4rem;
+        }
+        .testoI h1, .testoL h1, .testoY h1 {
+          transition: ease-in-out 0.2s;
+          user-select: none;
+        }
+        .testoI h1:hover, .testoL h1:hover, .testoY h1:hover {
+          cursor: pointer;
+          filter: drop-shadow(0px 0px 20px #ff00ea);
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        <div class="manopola">
+          <div class="testoILY">
+            <div class="testoI">
+              <h1>B</h1>
+            </div>
+            <div class="testoL">
+              <h1>A</h1>
+              <h1>J</h1>
+              <h1>I</h1>
+              <h1>N</h1>
+            </div>
+            <div class="testoY">
+              <h1>G</h1>
+              <h1>A</h1>
+              <h1>N</h1>
+            </div>
+          </div>
+          <button onclick="btnClicked()">Click Me!</button>
+        </div>
+    </div>
+    <script>
+      function btnClicked() {
+        alert("ANJING PINTAR!")
+      }
+    </script>
+</body>
+</html>
